@@ -1,0 +1,347 @@
+$grayColor: #666666;
+$lightGreyColor: #999999;
+
+#root{
+  font-family: Open Sans;
+}
+.container{
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 30px;
+}
+.main-container {
+  margin: auto;
+}
+.input{
+  width: 100%;
+  padding: 0 0 0 20px;
+}
+.input:focus{
+  outline: none;
+}
+.button{
+  background-color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.button_main-active {
+  background-color: $grayColor;
+  color: white;
+  width: 200px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.button_main {
+  color: $grayColor;
+  width: 200px;
+  height: 45px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.button:focus {
+  outline: none;
+}
+.im-magnifier{
+  font-size: 18px;
+}
+.search-header {
+  text-align: center;
+  font-size: 25px;
+  color: $grayColor;
+}
+.search{
+  position: relative;
+
+  .search__input{
+    height: 35px;
+    border: 1px solid $grayColor;
+    -moz-box-sizing: border-box; /* в Firefox нужен префикс */
+    box-sizing: border-box;
+  }
+  .search__button {
+    position: absolute;
+    right: 0;
+    top: 1px;
+    border-left: 1px solid;
+    width: 50px;
+    height: 33px;
+    color: $grayColor;
+    background-color: #fafafa00;;
+  }
+}
+.switch-buttons {
+  width: fit-content;
+  margin: auto;
+
+  .switch-buttons__button {
+    border: 1px solid $grayColor;
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+    cursor: pointer;
+  }
+  .switch-buttons__button_active{
+    background-color: $lightGreyColor;
+    color: #fff;
+  }
+}
+.list{
+  .list__row {
+    display: flex;
+    border: 1px solid #666666;
+    min-height: 40px;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .list__tag {
+    background-color: $grayColor;
+    color: #fff;
+    border: 1px solid $grayColor;
+    margin: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+  }
+  .list__tag-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 60%;
+  }
+  .list__bookmark {
+    margin-left: auto;
+    cursor: pointer;
+  }
+  .list__link-container {
+    width: 35%;
+  }
+  .list__name {
+    color: gray;
+    text-decoration: none;
+  }
+  .list__error {
+    font-size: 26px;
+    padding: 40px;
+    color: gray;
+    text-align: center;
+  }
+}
+.load-more {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.cart{
+  display: flex;
+  .cart__image {
+    width: 220px;
+    height: 300px;
+    border: 1px solid $grayColor;
+    background-image: linear-gradient(to bottom right, transparent 49.5%, $grayColor, #6660 50.5%), linear-gradient(to bottom left, transparent 49.5%, $grayColor, #6660 50.5%);
+  }
+  .cart__data {
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cart__name {
+    font-size: 25px;
+    color: $grayColor;
+  }
+  .cart__button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+.back-button {
+  height: 60px;
+  .back-button__link {
+    color: gray;
+    font-size: 28px;
+    text-decoration: none;
+  }
+}
+.tags{
+  .tags__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+  }
+  .tags__tag {
+    background-color: #666666;
+    color: #fff;
+    border: 1px solid #666666;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .tags__header {
+    text-align: center;
+    font-size: 25px;
+    color: $grayColor;
+  }
+  .tags__searching-tags {
+    min-height: 35px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .tags__close {
+    width: 12px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 280px) {
+  .container{
+    width: 100%;
+  }
+  .main-container {
+    width: 90%;
+  }
+  .list{
+    .list__row {
+      flex-direction: column;
+    }
+    .list__link-container {
+      width: 85%;
+      text-align: center;
+      margin: 10px 0px 10px 0px;
+    }
+    .list__tag-container {
+      width: 85%;
+      justify-content: center;
+      margin: 10px 0px 10px 0px;
+    }
+    .list__error {
+      font-size: 20px;
+      padding: 30px;
+      text-align: center;
+    }
+  }
+  .switch-buttons{
+    .switch-buttons__button {
+      width: 125px;
+      font-size: 15px;
+    }
+  }
+  .tags {
+    .tags__tag {
+      font-size: 13px;
+    }
+    .tags__list {
+      justify-content: center;
+    }
+    .tags__close {
+      width: 9px;
+    }
+  }
+  .cart {
+    flex-direction: column;
+    align-items: center;
+    .cart__name {
+      text-align: center;
+    }
+  }
+}
+@media (min-width: 576px) {
+  .container{
+    width: 540px;
+  }
+  .main-container {
+    width: 90%;
+  }
+  .list{
+    .list__row {
+      flex-direction: row;
+    }
+    .list__link-container {
+      width: 35%;
+      text-align: left;
+      margin: 0;
+    }
+    .list__tag-container {
+      width: 60%;
+      justify-content: start;
+      margin: 0;
+    }
+    .list__error{
+      font-size: 26px;
+      padding: 40px;
+    }
+  }
+  .switch-buttons {
+    .switch-buttons__button {
+      width: 140px;
+      font-size: 17px;
+    }
+  }
+  .tags {
+    .tags__tag {
+      font-size: 14px;
+    }
+    .tags__list {
+      justify-content: start;
+    }
+    .tags__close {
+      width: 12px;
+    }
+  }
+  .cart {
+    flex-direction: row;
+    align-items: start;
+    .cart__name {
+      text-align: left;
+    }
+  }
+}
+
+@media (min-width: 630px) {
+  .container{
+    width: 610px;
+  }
+  .main-container {
+    width: 90%;
+  }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media (min-width: 768px) {
+  .container{
+    width: 720px;
+  }
+  .main-container {
+    width: 90%;
+  }
+}
+
+/* lg-устройства (больше или равно 992px) */
+@media (min-width: 992px) {
+  .container{
+    width: 960px;
+  }
+  .main-container {
+    width: 90%;
+  }
+}
+
+/* xl-устройства (больше или равно 1200px) */
+@media (min-width: 1200px) {
+  .container{
+    width: 1140px;
+  }
+  .main-container {
+    width: 75%;
+  }
+}

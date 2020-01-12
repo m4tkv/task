@@ -1,0 +1,1 @@
+export const COUNT_ELEMENTS = 10;
