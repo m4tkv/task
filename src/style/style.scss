@@ -62,6 +62,9 @@ $lightGreyColor: #999999;
     border: 1px solid $grayColor!important;
     border-radius: 0!important;
     box-shadow: none!important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     -moz-box-sizing: border-box; /* в Firefox нужен префикс */
     box-sizing: border-box;
   }
