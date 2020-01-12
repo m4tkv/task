@@ -15,9 +15,13 @@ class MovieCart extends Component {
 
     removeFavorite(){
         let favoriteArr = this.props.favoriteMovies.slice(0);
-        favoriteArr.splice(this.props.match.params.id,1);
-        localStorage.setItem('favoriteMovies', JSON.stringify(favoriteArr));
-        this.props.onChangeFavorite(favoriteArr);
+        let movie = this.props.movies[this.props.match.params.id];
+        let movieFavoriteKey = this.props.favoriteMovies.indexOf(movie);
+        if (movieFavoriteKey !== -1){
+            favoriteArr.splice(movieFavoriteKey,1);
+            localStorage.setItem('favoriteMovies', JSON.stringify(favoriteArr));
+            this.props.onChangeFavorite(favoriteArr);
+        }
     }
     render() {
         return (

@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f77a44b-2aa0-41cf-9542-e8a985c0c059" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/components/List.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/List.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/MovieCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MovieCart.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/containers/MovieList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/containers/MovieList.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="12" />
-          <entry key="js" value="7701" />
+          <entry key="js" value="7877" />
           <entry key="scss" value="718" />
           <entry key="svg" value="25" />
         </counts>
@@ -63,7 +61,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="12" />
-          <entry key="JavaScript" value="7701" />
+          <entry key="JavaScript" value="7877" />
           <entry key="SCSS" value="718" />
           <entry key="SVG" value="25" />
         </counts>
@@ -128,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/List.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
@@ -152,11 +150,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/MovieCart.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+            <state relative-caret-position="320">
+              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -223,9 +221,9 @@
         <option value="$PROJECT_DIR$/src/style/style.scss" />
         <option value="$PROJECT_DIR$/src/reducers/favorites.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/src/components/MovieCart.js" />
         <option value="$PROJECT_DIR$/src/components/List.js" />
         <option value="$PROJECT_DIR$/src/containers/MovieList.js" />
+        <option value="$PROJECT_DIR$/src/components/MovieCart.js" />
       </list>
     </option>
   </component>
@@ -384,12 +382,12 @@
       <option name="presentableId" value="Default" />
       <updated>1578677667732</updated>
       <workItem from="1578677669606" duration="552000" />
-      <workItem from="1578678396403" duration="48782000" />
+      <workItem from="1578678396403" duration="49545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49334000" />
+    <option name="totallyTimeSpent" value="50097000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -650,16 +648,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/MovieCart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/containers/MovieList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -674,6 +662,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="25" column="74" selection-start-line="25" selection-start-column="74" selection-end-line="25" selection-end-column="74" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/MovieCart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
