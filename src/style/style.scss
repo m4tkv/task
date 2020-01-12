@@ -61,6 +61,7 @@ $lightGreyColor: #999999;
     height: 35px;
     border: 1px solid $grayColor!important;
     border-radius: 0!important;
+    box-shadow: none!important;
     -moz-box-sizing: border-box; /* в Firefox нужен префикс */
     box-sizing: border-box;
   }
