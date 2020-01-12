@@ -214,6 +214,7 @@ $lightGreyColor: #999999;
 @media (min-width: 280px) {
   .container{
     width: 100%;
+    padding:0;
   }
   .main-container {
     width: 90%;
@@ -266,6 +267,8 @@ $lightGreyColor: #999999;
 @media (min-width: 576px) {
   .container{
     width: 540px;
+    padding-right: 15px;
+    padding-left:15px;
   }
   .main-container {
     width: 90%;
